@@ -5,6 +5,7 @@ namespace MercadoPago\Serialization;
 use MercadoPago\Net\MPResource;
 
 /** Serializer class, responsible for objects serialization and deserialization. */
+#[\AllowDynamicProperties]
 class Serializer
 {
     /**
