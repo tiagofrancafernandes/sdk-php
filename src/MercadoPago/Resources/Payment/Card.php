@@ -5,6 +5,7 @@ namespace MercadoPago\Resources\Payment;
 use MercadoPago\Serialization\Mapper;
 
 /** Card class. */
+#[\AllowDynamicProperties]
 class Card
 {
     /** Class mapper. */
